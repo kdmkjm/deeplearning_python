@@ -1,6 +1,9 @@
 import sys, os
 import numpy as np
-sys.path.append('D:\Github\deeplearning_python')
+# for window desktop
+#sys.path.append('D:\Github\deeplearning_python')
+# for imac
+sys.path.append('/Users/skdm/Documents/GitHub/deeplearning_python')
 from common.functions import sigmoid
 
 def identity_function(x):
