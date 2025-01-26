@@ -2,10 +2,11 @@ import numpy as np
 import matplotlib.pylab as plt
 import sys, os
 # 노트북 패스
-sys.path.append('C:/Users/1/OneDrive/Documents/GitHub/deeplearning_python')
+#sys.path.append('C:/Users/1/OneDrive/Documents/GitHub/deeplearning_python')
+# 데스크탑 패스
+sys.path.append('D:\Github\deeplearning_python')
 from dataset.mnist import load_mnist
-sys.path.append('C:/Users/1/OneDrive/Documents/GitHub/deep-learning-from-scratch/ch04')
-from two_layer_net import TwoLayerNet
+from twoLayer import TwoLayerNet
 
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, one_hot_label=True)
 

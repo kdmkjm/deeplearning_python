@@ -1,5 +1,8 @@
 import sys, os
-sys.path.append('C:/Users/1/OneDrive/Documents/GitHub/deeplearning_python')
+# 노트북 패스
+#sys.path.append('C:/Users/1/OneDrive/Documents/GitHub/deeplearning_python')
+# 데스크탑 패스
+sys.path.append('D:\Github\deeplearning_python')
 from common.functions import *
 from common.gradient import numerical_gradient
 
@@ -37,7 +40,7 @@ class TwoLayerNet:
         y = np.argmax(y, axis=1)
         t = np.argmax(t, axis=1)
 
-        accuracy = np,sum(y == t) / float(x.shape[0])
+        accuracy = np.sum(y == t) / float(x.shape[0])
         return accuracy
     
     # 가중치 매개변수의 기울기 산출.
