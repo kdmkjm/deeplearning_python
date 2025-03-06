@@ -5,7 +5,7 @@ import matplotlib.pylab as plt
 from dataset.mnist import load_mnist
 from common.multi_layer_net import MultiLayerNet
 from common.util import shuffle_dataset
-from common.trainer import Trainer
+from common.trainer import Trainers
 
 (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True)
 
