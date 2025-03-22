@@ -1,6 +1,8 @@
 import sys, os
 # imac용 디렉토리 패스
-sys.path.append('/Users/skdm/Documents/GitHub/deeplearning_python')
+# sys.path.append('/Users/skdm/Documents/GitHub/deeplearning_python')
+# windows용 디렉토리 패스
+sys.path.append('D:\Github\deeplearning_python')
 import pickle
 import numpy as np
 from collections import OrderedDict
