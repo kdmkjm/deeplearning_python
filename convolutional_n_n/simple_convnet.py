@@ -14,11 +14,11 @@ class SimpleConvNet:
     
     Parameters
     ----------
-    input_size : 입력 크기（MNIST의 경우엔 784）
-    hidden_size_list : 각 은닉층의 뉴런 수를 담은 리스트（e.g. [100, 100, 100]）
-    output_size : 출력 크기（MNIST의 경우엔 10）
+    input_size : 입력 크기
+    hidden_size_list : 각 은닉층의 뉴런 수를 담은 리스트
+    output_size : 출력 크기
     activation : 활성화 함수 - 'relu' 혹은 'sigmoid'
-    weight_init_std : 가중치의 표준편차 지정（e.g. 0.01）
+    weight_init_std : 가중치의 표준편차 지정
         'relu'나 'he'로 지정하면 'He 초깃값'으로 설정
         'sigmoid'나 'xavier'로 지정하면 'Xavier 초깃값'으로 설정
     """
